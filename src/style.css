@@ -9,6 +9,7 @@ body {
   font-family: var(--body);
   background-color: #110d0e;
   color: #ffffff;
+  margin: 20px;
 }
 h1 {
   font-family: var(--headings);
@@ -47,12 +48,14 @@ h2 {
 
 hr {
   color: var(--second-color);
+  margin: 30px;
 }
 
 .intro {
   text-align: center;
   font-size: 20px;
   font-weight: 200;
+  margin: 25px 50px;
 }
 
 .cv-button {
