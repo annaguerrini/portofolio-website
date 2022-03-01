@@ -18,7 +18,7 @@ body {
 }
 h1 {
   font-family: var(--headings);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 80px;
   margin-bottom: 0;
 }
@@ -106,7 +106,8 @@ p {
   width: 200px;
 }
 
-.project-image {
+.project-image,
+.work-image {
   width: 500px;
   border-radius: 20px;
   box-shadow: 0px 10px 50px var(--second-color);
@@ -235,6 +236,7 @@ i {
   }
   h2 {
     margin: 0px 15px;
+    font-size: 20px;
   }
   .buttons {
     display: block;
@@ -247,5 +249,24 @@ i {
     display: block;
     margin: 15px auto;
     font-size: 15px;
+  }
+  .launch-button {
+    display: block;
+    margin: 0 auto;
+    font-size: 13px;
+    width: 150px;
+  }
+  .work-image {
+    display: none;
+  }
+  .work {
+    margin: 5px;
+  }
+  .weather-app,
+  .eighties-app {
+    text-align: center;
+  }
+  .third-contact-button {
+    margin: 10px auto;
   }
 }
