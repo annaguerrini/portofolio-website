@@ -10,8 +10,40 @@ body {
   background-color: #110d0e;
   color: #ffffff;
 }
+
 nav {
-  background-color: none;
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 100ms ease-in-out;
+}
+
+nav li a:hover {
+  color: var(--first-color);
+}
+nav li.active a {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 50%,
+    var(--second-color) 50%
+  );
+}
+
+nav li.active a:hover {
   color: #ffffff;
 }
 
@@ -205,7 +237,7 @@ i {
 
 .contact {
   vertical-align: middle;
-  margin: 200px 0px;
+  margin: 30px 0px;
   text-align: center;
 }
 
@@ -239,6 +271,13 @@ i {
 }
 
 @media (max-width: 576px) {
+  .navbar-brand {
+    display: none;
+  }
+  nav li {
+    font-size: 12px;
+    margin-left: 10px;
+  }
   h1 {
     font-size: 30px;
     text-align: center;
@@ -319,5 +358,17 @@ i {
   }
   .third-contact-button {
     margin: 10px auto;
+  }
+  .contact {
+    margin: 10px;
+  }
+  .contact-info {
+    font-size: 20px;
+  }
+  .contact-image {
+    display: none;
+  }
+  .form-control {
+    width: 250px;
   }
 }
