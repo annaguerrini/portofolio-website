@@ -10,6 +10,10 @@ body {
   background-color: #110d0e;
   color: #ffffff;
 }
+nav {
+  background-color: none;
+  color: #ffffff;
+}
 
 .head {
   padding: 200px 30px;
@@ -207,10 +211,31 @@ i {
 
 .contact-info {
   text-align: center;
+  font-size: 25px;
 }
 
 .contact-image {
   width: 700px;
+}
+
+.form-control {
+  width: 400px;
+  font-family: var(--body);
+}
+
+.message {
+  text-align: center;
+}
+
+.btn {
+  background: var(--first-color);
+  border-color: var(--first-color);
+  font-family: var(--headings);
+}
+
+.btn:hover {
+  background: var(--second-color);
+  border-color: var(--second-color);
 }
 
 @media (max-width: 576px) {
