@@ -12,6 +12,8 @@ body {
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
   padding: 20px 0;
 }
 
@@ -271,6 +273,10 @@ i {
 }
 
 @media (max-width: 576px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
   .navbar-brand {
     display: none;
   }
