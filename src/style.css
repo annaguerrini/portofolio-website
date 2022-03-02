@@ -305,9 +305,11 @@ i {
   }
   .project-image {
     width: 270px;
-    margin: 14px;
+    margin: 20px auto;
   }
   iframe {
+    display: block;
+    margin: 0 auto;
     width: 280px;
     height: 200px;
   }
