@@ -67,7 +67,8 @@ h1 {
 }
 
 h2 {
-  font-weight: 400;
+  font-family: var(--headings);
+  font-weight: 300;
   margin: 0px 50px;
 }
 
