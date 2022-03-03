@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Contact me</title>
+    <title>About me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Raleway:wght@300;400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/aacb124ed1.js" crossorigin="anonymous"></script>
 </head>
 
@@ -41,35 +42,35 @@
 
 <div class="row contact-row">
     <div class="col-sm-6 contact">
-        <h2 class="curious-for-more">CURIOUS FOR MORE?</h2>
+        <h2 class="curious-for-more" data-aos="fade-up" data-aos-duration="1000">CURIOUS FOR MORE?</h2>
         </br>
-        <h1 class="contact-me">CONTACT ME</h1>
+        <h1 class="contact-me" data-aos="fade-up" data-aos-duration="1300">CONTACT ME</h1>
         </br>
         </br>
-        <p class="contact-info">
+        <p class="contact-info" data-aos="fade-up" data-aos-duration="1500">
             <strong>for business inquiries:</strong>
             a.lobato.guerrini@gmail.com
             </br>
             <a href="https://linktr.ee/annaguerrini" target="_blank" class="social">MY SOCIAL</a>
         </p>
         </br>
-        <p class="message">You can also leave a message below and I'll get back to you asap</p>
+        <p class="message" data-aos="fade-up" data-aos-duration="1700">You can also leave a message below and I'll get back to you asap</p>
         <form class="contact-form d-flex flex-column align-items-center mb-3" action="https://formspree.io/f/xknybraa"
             method="POST">
-            <div class="form-group mt-3">
+            <div class="form-group mt-3" data-aos="fade-up" data-aos-duration="1300">
                 <input type="name" class="form-control" placeholder="Name" name="name" required />
             </div>
-            <div class="form-group mt-2">
+            <div class="form-group mt-2" data-aos="fade-up" data-aos-duration="1500">
                 <input type="email" class="form-control" placeholder="Email" name="name" required />
             </div>
-            <div class="form-group mt-2">
+            <div class="form-group mt-2" data-aos="fade-up" data-aos-duration="1700">
                 <textarea class="form-control" type="text" placeholder="Message" rows="7" name="name" required></textarea>
             </div>
-            <button type="submit" class="btn btn-submit btn-secondary mt-2 mb-5">Submit</button>
+            <button type="submit" class="btn btn-submit btn-secondary mt-2 mb-5" data-aos="fade-up" data-aos-duration="1900">Submit</button>
         </form>
     </div>
     <div class="col-sm-6">
-        <img src="images/contact-photo.JPG" alt="Contact Image" class="contact-image" />
+        <img src="images/contact-photo.JPG" alt="Contact Image" class="contact-image"  data-aos="fade-left" data-aos-duration="1700"/>
     </div>
 </div>
 <footer>
@@ -96,7 +97,10 @@
         a.lobato.guerrini@gmail.com
     </span>
 </footer>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 
 </html>

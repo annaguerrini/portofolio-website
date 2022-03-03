@@ -12,11 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Raleway:wght@300;400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://kit.fontawesome.com/aacb124ed1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="navbar">
         <nav>
             <h2 class="navbar-brand">ANNA GUERRINI</h2>
     
@@ -39,25 +40,25 @@
     
     <div class="head">
 
-                <h1>ANNA GUERRINI</h1>
-                <h3>Front-end developer based in Europe</h3>
+                <h1 data-aos="fade-up" data-aos-duration="1000">ANNA GUERRINI</h1>
+                <h3 data-aos="fade-up" data-aos-duration="1500">Front-end developer based in Europe</h3>
                 </br>
-                <a href="contact.html" class="contact-button">CONTACT ME</a>
+                <a href="contact.html" class="contact-button" data-aos="fade-up" data-aos-duration="2000">CONTACT ME</a>
             </div>
         </div>
     </div>
     <hr />
     </br>
-    <p class="intro">
+    <p class="intro" data-aos="fade-up" data-aos-duration="500">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla.
     </p>
-    <a href="#" class="cv-button">DOWNLOAD MY CV</a>
+    <a href="#" class="cv-button"  data-aos="fade-up" data-aos-duration="500">DOWNLOAD MY CV</a>
     </br>
     </br>
     <span class="projects">
-        <img src="images/1980page.png" class="project-image">
-        <img src="images/weather-app.png" class="project-image">
+        <img src="images/1980page.png" class="project-image"  data-aos="fade-up" data-aos-duration="500">
+        <img src="images/weather-app.png" class="project-image"  data-aos="fade-up" data-aos-duration="900">
     </span>
     </br>
     </br>
@@ -66,12 +67,12 @@
     </br>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos="fade-right" data-aos-duration="500">
                 <iframe width="560" height="415" src="https://www.youtube.com/embed/p551vx9T4gI" title="YouTube video player"
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos="fade-left" data-aos-duration="1500">
                 <a href="about.html" class="about-button">ABOUT ME</a>
             </div>
         </div>
@@ -101,6 +102,9 @@
     </footer>
   
     
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
