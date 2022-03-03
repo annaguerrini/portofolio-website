@@ -152,7 +152,6 @@ p {
 .work-image {
   width: 500px;
   border-radius: 20px;
-  box-shadow: 0px 10px 50px var(--second-color);
   display: block;
   margin: 0 auto;
 }
