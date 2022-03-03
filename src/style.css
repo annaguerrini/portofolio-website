@@ -285,11 +285,11 @@ i {
     margin-left: 10px;
   }
   h1 {
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
   }
   h3 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
   }
   .contact-button {
@@ -297,9 +297,6 @@ i {
     margin: 0 auto;
     text-align: center;
     width: 170px;
-  }
-  .intro {
-    font-size: 15px;
   }
   .cv-button {
     font-size: 13px;
