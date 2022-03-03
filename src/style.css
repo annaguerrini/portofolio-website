@@ -17,6 +17,10 @@ nav {
   padding: 20px 0;
 }
 
+.navbar-brand {
+  margin: 0px;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
