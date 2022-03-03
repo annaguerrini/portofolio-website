@@ -285,11 +285,11 @@ i {
     margin-left: 10px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
   }
   h3 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
   }
   .contact-button {
@@ -328,13 +328,13 @@ i {
     text-align: center;
   }
   p {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200;
     margin: 10px 15px;
   }
   h2 {
     margin: 0px 15px;
-    font-size: 20px;
+    font-size: 30px;
   }
   .buttons {
     display: block;
