@@ -7,7 +7,7 @@
 
 body {
   font-family: var(--body);
-  background-color: #110d0e;
+  background-color: #0A0506;
   color: #ffffff;
 }
 
@@ -54,9 +54,7 @@ nav li.active a:hover {
 }
 
 .head {
-  padding: 200px 30px;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/074/original/portrait.png?1645789592");
-  background-size: 1200px;
+  padding: 250px 100px;
 }
 h1 {
   font-family: var(--headings);
