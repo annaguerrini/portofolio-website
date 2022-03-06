@@ -393,12 +393,17 @@ i {
   .index-image,
   .about-mobile-image,
   .curiosities-image,
-  .work-mobile-image,
-  .contact-mobile-image {
-    width: 400px;
+  .work-mobile-image {
+    width: 300px;
     display: block;
     margin: 0 auto;
   }
+.contact-mobile-image {
+  width: 250px;
+  display:block;
+  margin: 0 auto;
+}
+
   .head {
     padding: 0px;
   }
