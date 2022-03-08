@@ -173,14 +173,17 @@ p {
   border-radius: 20px;
   display: block;
   margin: 0 auto;
+  
 }
+
 .projects {
   display: flex;
   justify-content: center;
 }
 
 iframe {
-  vertical-align: middle;
+  display: block;
+  margin: 0 auto;
 }
 .about-button {
   text-align: center;
@@ -302,7 +305,7 @@ i {
   border-color: var(--second-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
   nav {
     display: flex;
     justify-content: space-evenly;
@@ -420,7 +423,7 @@ i {
 
 }
 
-@media (min-width: 576px) {
+@media (min-width: 900px) {
   .index-image,
   .about-mobile-image,
   .work-mobile-image,
