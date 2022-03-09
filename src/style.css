@@ -11,6 +11,10 @@ body {
   color: #ffffff;
 }
 
+#navbar {
+  max-width: 10000px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -192,6 +196,16 @@ iframe {
   vertical-align: middle;
   margin: 180px auto;
   width: 170px;
+}
+
+.scroll {
+  color: var(--first-color);
+  text-decoration: none;
+}
+
+.scroll:hover {
+  color: var(--second-color);
+  transition: 0.3s ease;
 }
 
 footer {
