@@ -171,7 +171,6 @@ p {
   width: 200px;
 }
 
-.project-image,
 .work-image {
   width: 500px;
   border-radius: 20px;
@@ -180,9 +179,16 @@ p {
   
 }
 
+.project-image {
+  width: 500px;
+  border-radius: 20px;
+  display: block;
+  margin: 10px 10px;
+}
+
 .projects {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 iframe {
@@ -194,7 +200,7 @@ iframe {
   display: flex;
   justify-content: space-evenly;
   vertical-align: middle;
-  margin: 180px auto;
+  margin: 30px auto;
   width: 170px;
 }
 
@@ -283,7 +289,9 @@ i {
   font-size: 25px;
 }
 
-.contact-image {
+.contact-image,
+.index-image,
+.work-image {
   width: 600px;
 }
 
@@ -324,12 +332,7 @@ i {
     display: flex;
     justify-content: space-evenly;
   }
-  .navbar-brand,
-  .contact-image,
-  .about-image,
-  .work-image {
-    display: none;
-  }
+  
   nav li {
     font-size: 12px;
     margin-left: 10px;
@@ -354,14 +357,14 @@ i {
     margin: 0 auto;
   }
   .project-image {
-    width: 270px;
+    max-width: 350px;
     margin: 20px auto;
   }
   iframe {
     display: block;
     margin: 0 auto;
-    width: 280px;
-    height: 200px;
+    width: 380px;
+    height: 300px;
   }
   .about-button {
     margin: 10px auto;
@@ -417,9 +420,8 @@ i {
   .form-control {
     width: 250px;
   }
-  .index-image,
+  .index-mobile-image,
   .about-mobile-image,
-  .curiosities-image,
   .work-mobile-image {
     width: 300px;
     display: block;
@@ -431,16 +433,38 @@ i {
   margin: 0 auto;
 }
 
-  .head {
-    padding: 0px;
-  }
-
+.head {
+  padding: 0px;
+  text-align: center;
+}
+.contact-image {
+  display: none;
+}
 }
 
-@media (min-width: 900px) {
+@media (max-width: 576px) {
+  .navbar-brand,
+  .contact-image,
+  .about-image,
   .index-image,
+  .work-image {
+    display: none;
+  }
+  iframe {
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+    height: 200px;
+  }
+}
+@media (min-width: 576px) {
+  .index-mobile-image,
   .about-mobile-image,
-  .work-mobile-image,
+  .work-mobile-image {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
   .contact-mobile-image {
     display: none;
   }
