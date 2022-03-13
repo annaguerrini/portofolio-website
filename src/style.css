@@ -205,12 +205,12 @@ iframe {
 }
 
 .scroll {
-  color: var(--first-color);
+  color: var(--second-color);
   text-decoration: none;
 }
 
 .scroll:hover {
-  color: var(--second-color);
+  color: var(--first-color);
   transition: 0.3s ease;
 }
 
