@@ -11,8 +11,13 @@ body {
   color: #ffffff;
 }
 
+html, body {
+  overflow-x:hidden;}
+
 #navbar {
   max-width: 10000px;
+  position: fixed;
+  background-color: #0A0506;
 }
 
 nav {
@@ -204,12 +209,12 @@ iframe {
   width: 170px;
 }
 
-.scroll {
+.subscribe {
   color: var(--second-color);
   text-decoration: none;
 }
 
-.scroll:hover {
+.subscribe:hover {
   color: var(--first-color);
   transition: 0.3s ease;
 }
@@ -340,6 +345,13 @@ i {
   h1 {
     font-size: 48px;
     text-align: center;
+    margin-top: 60px;
+  }
+  .curious-for-more {
+    margin-top: 40px;
+  }
+  .contact-me {
+    margin-top: 0px;
   }
   h3 {
     font-size: 25px;
