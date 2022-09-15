@@ -146,6 +146,10 @@ h3 {
   margin: 0 auto;
 }
 
+.miniicon{
+  width: 40px;
+}
+
 hr {
   color: var(--second-color);
   margin: 30px;
