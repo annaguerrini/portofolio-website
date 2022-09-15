@@ -134,6 +134,18 @@ h3 {
   color: #ffffff;
 }
 
+.process-titles {
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.icon {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
 hr {
   color: var(--second-color);
   margin: 30px;
@@ -153,6 +165,10 @@ p {
 .intro {
   text-align: center;
   font-size: 50px;
+}
+
+.youtube-intro {
+  text-align: center;
 }
 
 .cv {
