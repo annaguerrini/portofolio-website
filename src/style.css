@@ -385,6 +385,17 @@ i {
     text-align: center;
     width: 170px;
   }
+  .process-titles {
+    text-align: center;
+    font-size: 30px;
+  }
+  .skills {
+    display: block;
+    margin: 0 auto;
+  }
+  .intro {
+    font-size: 30px;
+  }
   .projects {
     display: block;
     margin: 0 auto;
