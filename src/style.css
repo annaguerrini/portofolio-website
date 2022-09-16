@@ -443,7 +443,8 @@ i {
     display: block;
     margin: 0 auto;
     font-size: 13px;
-    width: 150px;
+    width: 170px;
+    text-align: center;
   }
   .work {
     margin: 5px;
