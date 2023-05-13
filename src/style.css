@@ -174,10 +174,7 @@ p {
   padding-left: 20px;
   padding-right: 20px;
 }
-.project-description {
-  text-align: justify;
-  margin: 0 auto;
-}
+
 .intro {
   text-align: center;
   font-size: 50px;
@@ -514,7 +511,7 @@ i {
     text-align: center;
   }
   .work {
-    
+    margin: 5px;
   }
   .weather-app,
   .eighties-app {
