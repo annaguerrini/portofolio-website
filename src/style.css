@@ -11,13 +11,16 @@ body {
   color: #ffffff;
 }
 
+
 html, body {
-  overflow-x:hidden;}
+  overflow-x:hidden;
+}
 
 #navbar {
   max-width: 10000px;
   position: fixed;
   background-color: #0A0506;
+  z-index: 9999;
 }
 
 nav {
@@ -39,6 +42,8 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
+  font-size: 19px;
+  font-family: var(--headings);
 }
 
 nav a {
@@ -163,9 +168,16 @@ p {
 }
 
 .project-info {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.project-description {
+  text-align: justify;
   margin: 0 auto;
 }
-
 .intro {
   text-align: center;
   font-size: 50px;
@@ -207,6 +219,56 @@ p {
   display: block;
   margin: 0 auto;
   
+}
+
+.little-work-image {
+  width: 500px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.work-title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.coming-soon-image {
+  width: 450px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  
+}
+.column {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  font-family: var(--headings) !important;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+.column:hover .little-work-image {
+opacity: 0.5;
+}
+.column:hover .overlay {
+opacity: 1;
 }
 
 .project-image {
@@ -321,7 +383,8 @@ i {
 
 .contact-image,
 .index-image,
-.work-image {
+.work-image,
+.little-work-image {
   width: 600px;
 }
 
@@ -451,7 +514,7 @@ i {
     text-align: center;
   }
   .work {
-    margin: 5px;
+    
   }
   .weather-app,
   .eighties-app {
@@ -499,6 +562,9 @@ i {
   .work-image {
     display: none;
   }
+  .little-work-image {
+    padding: 10px;
+  }
   iframe {
     display: block;
     margin: 0 auto;
@@ -510,6 +576,9 @@ i {
   .index-mobile-image,
   .about-mobile-image,
   .work-mobile-image {
+    display: none;
+  }
+  .project-info {
     display: none;
   }
 }
