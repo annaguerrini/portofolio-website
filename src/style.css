@@ -164,7 +164,7 @@ p {
   font-size: 20px;
   font-weight: 200;
   margin: 25px 50px;
-  text-align: justify;
+
 }
 
 .project-info {
@@ -186,6 +186,8 @@ p {
 
 .youtube-intro {
   text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .cv {
@@ -568,6 +570,11 @@ i {
     width: 320px;
     height: 200px;
   }
+  .youtube-intro {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 @media (min-width: 576px) {
   .index-mobile-image,
@@ -582,5 +589,12 @@ i {
 @media (min-width: 900px) {
   .contact-mobile-image {
     display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .youtube-intro {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
